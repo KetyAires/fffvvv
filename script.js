@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Fascinado(a) e curioso(a), sempre aberto(a) a novas possibilidades.",
-                afirmacao: "Você vai casar com **Jacob, o Lobo**!  "
+                afirmacao: "Você vai ser fogo!  "
             },
             {
                 texto: "Cético(a) mas interessado(a), gostando de explorar o desconhecido.",
-                afirmacao: "Você vai casar com **Edward, o Vampiro**! "
+                afirmacao: "Você vai ser água! "
             }
         ]
     },

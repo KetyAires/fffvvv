@@ -8,72 +8,75 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você prefere chá ou café?",
+       enunciado: "Qual é a sua ideia de um encontro perfeito?",
         alternativas: [
             {
-                texto: "café é vida!",
-                afirmacao: "Altamente independente, você quer se libertar das expectativas de outras pessoas e abraçar suas próprias ideias."
+                texto: "Uma caminhada romântica pela floresta ao pôr do sol",
+                afirmacao: "Você é atraído (a) pelo calor e pela lealdade inabalável."
             },
             {
-                texto: "concerteza chá!",
-                afirmacao: "quer estar em um mundo onde você, e todos os outros, tenham a liberdade de viver de acordo com suas vontades, sem serem julgados."
+                texto: "Um jantar à luz de velas em um restaurante elegante.",
+                afirmacao: "Você é atraído(a) pelo mistério e pela elegância."
             }
         ]
     },
     {
-        enunciado: "Prefere assistir filmes ou séries?",
+        enunciado: "O que te atrai mais em uma pessoa?",
         alternativas: [
             {
-                texto: "séries.",
-                afirmacao: "Não aprende coisas novas apenas para impressionar os outros, você realmente se deleita ao ampliar os horizontes do conhecimento."
+                texto: "Um espírito aventureiro e um físico
+atlético",
+                afirmacao: "Jacob representa aventura, parceria e um amor que é sempre protetor e apaixonado."
             },
             {
-                texto: "filmes.",
-                afirmacao: "A menos que reserve um tempo para si, corre o risco de se sentir perdido na correria da vida cotidiana, reagindo constantemente às circunstâncias externas em vez de seguir seu próprio rumo."
+                texto: "Um charme misterioso e uma
+inteligência aguçada",
+                afirmacao: "Edward oferece um amor eterno e uma ligação intelectual profunda."
             }
         ]
     },
     {
-        enunciado: "Gosta mais de cozinhar ou de comer fora?",
+        enunciado: "Como você lida com situações difíceis?",
         alternativas: [
             {
-                texto: "cozinhar.",
-                afirmacao: "Guiado pela estratégia ao invés da sorte,analisa atentamente os pontos fortes e fracos de cada situação. Além disso, nunca deixa de acreditar que, com a dose certa de  perspicácia, podem encontrar uma maneira de vencer, independentemente dos desafios que possam surgir ao longo do caminho."
+                texto: "Com paixão e determinação, nunca desistindo",
+                afirmacao: "Vocês dois compartilham uma conexão profunda com a natureza e uma energia vibrante."
             },
             {
-                texto: "comer fora.",
-                afirmacao: "Em vez de se concentrarem em como as coisas poderiam ser diferentes, você têm uma capacidade incrível de apreciar o lado positivo da vida como ela é."
+                texto: "Com calma e reflexão, pensando antes de agir",
+                afirmacao: "Vocês compartilham um gosto pelo clássico e pelo refinado, apreciando momentos tranquilos e reflexivos juntos."
             }
         ]
     },
     {
-        enunciado: "Você prefere praia ou montanha para passar férias?",
-",
+        enunciado: "Como você se sente em relação ao sobrenatural?",
         alternativas: [
             {
-                texto: "praia.",
+                texto: "Fascinado(a) e curioso (a), sempre aberto a) a novas possibilidades
+ ",
+                afirmacao: "Quer compreender tudo o que faz parte do universo, mas há uma área que costuma intrigá-lo particularmente: o sobrenatural."
+            },
+            {
+                texto: "Cético(a) mas interessado(a), gostando de explorar o desconhecido",
                 afirmacao: "Quer compreender tudo o que faz parte do universo, mas há uma área que costuma intrigá-lo particularmente: a natureza humana."
-            },
-            {
-                texto: "montanha.",
-                afirmacao: "Seu senso de lealdade é intenso,mas a intensidade do seu compromisso e desejo de servir tem suas desvantagens. Há quem possa se aproveitar da natureza prestativa e trabalhadora, levando-o a se sentir exausto e sobrecarregado."
             }
         ]
     },
     {
-        enunciado: "Você prefere viajar sozinho(a) ou em grupo? ",
+        enunciado: "Qual é o seu estilo de vida?",
         alternativas: [
             {
-                texto: "sozinho.",
-                afirmacao: "voce seria elemento água!"
+                texto: "Ativo (a) e cheio a) de energia",
+                afirmacao: "Você vai casar com Jacob, o Lobo!"
             },
             {
-                texto: "grupo.",
-                afirmacao: "voce seria elemento fogo!"
+                texto: "Tranquilo (a) e introspectivo (a)",
+                afirmacao: "Você vai casar com *Edward, o Vampiro*!"
             }
         ]
     },
 ];
+                
 
 
 let atual = 0;

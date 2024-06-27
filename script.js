@@ -11,11 +11,11 @@ const perguntas = [
         enunciado: "Você prefere chá ou café?",
         alternativas: [
             {
-                texto: "café!",
+                texto: "café é vida!",
                 afirmacao: "Altamente independente, você quer se libertar das expectativas de outras pessoas e abraçar suas próprias ideias."
             },
             {
-                texto: "chá!",
+                texto: "concerteza chá!",
                 afirmacao: "quer estar em um mundo onde você, e todos os outros, tenham a liberdade de viver de acordo com suas vontades, sem serem julgados."
             }
         ]

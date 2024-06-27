@@ -47,7 +47,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você prefere praia ou montanha para passar férias?
+        enunciado: "Você prefere praia ou montanha para passar férias?",
 ",
         alternativas: [
             {
@@ -65,11 +65,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "sozinho.",
-                afirmacao: "vocễ seria elemento água!"
+                afirmacao: "voce seria elemento água!"
             },
             {
                 texto: "grupo.",
-                afirmacao: "vocễ seria elemento fogo!"
+                afirmacao: "voce seria elemento fogo!"
             }
         ]
     },
